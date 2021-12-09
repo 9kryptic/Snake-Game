@@ -132,7 +132,7 @@ function control(e) {
 }
 
 function newHighScore() {
-    if (highScore < score){
+    if (highScoreDisplay < score){
         highScore= score
         localStorage.setItem('highScore', JSON.stringify(score))
         highScoreDisplay.textContent = highScoreDisplay
