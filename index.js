@@ -135,7 +135,7 @@ function newHighScore() {
     if (highScore < score){
         highScore= score
         localStorage.setItem('highScore', JSON.stringify(score))
-        highScoreDisplay.textContent = highScore
+        highScoreDisplay.textContent = highScoreDisplay
     }
 }
 
