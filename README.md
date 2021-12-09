@@ -21,3 +21,4 @@ but i just ran into trouble, i do look forward in to improving this nokia style 
 the new high score displays once you click start/restart or refresh the page.
 
 PS. thank you so much Ania Kubow for the lesson, please feel free to istruct me further on this project and any other i upload.
+ 
