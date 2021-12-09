@@ -6,6 +6,22 @@ html, body {
     text-align: center;
     background: rgb(60, 88, 97);
     max-width: 80% ;
+    font-size: 30px;
+}
+
+#start {
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+#start:focus,
+#start:hover {
+    background-color: white;
+    color: black;
 }
 
 .grid {
@@ -35,8 +51,8 @@ html, body {
 .scores {
     display: flex;
     justify-content: space-between;
-    max-width:600px;
-    margin: 0 auto;
+    max-width:800px;
+    margin: 2rem auto;
 }
 
 .high-score {
