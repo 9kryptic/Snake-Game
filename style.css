@@ -1,0 +1,46 @@
+html, body {
+    color:blanchedalmond;
+    margin: 10;
+    padding: 10;
+    margin: 0 auto;
+    text-align: center;
+    background: rgb(60, 88, 97);
+    max-width: 80% ;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 200px;
+    border: solid 2px black;
+    margin: 0 auto;  
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+}
+
+.snake {
+    background: linear-gradient(45deg, #dc3b3e, #3b99dc 50%, #3bdc90 75%, rgb(255 141 0) 100%);
+    border-radius:50%;
+}
+
+.apple {
+    background-color: red;
+    border-radius: 50%;
+}
+
+.scores {
+    display: flex;
+    justify-content: space-between;
+    max-width:600px;
+    margin: 0 auto;
+}
+
+.high-score {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid blue;
+}
